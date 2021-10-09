@@ -16,7 +16,7 @@ module.exports = {
  REMOVE2: process.env.THERI_KICK_PM === undefined ? 'false' : process.env.THERI_KICK_PM,
  PLKAFN: process.env.THERI_LIST_PM === undefined ? false : process.env.THERI_LIST_PM,
  OA_REPLY: process.env.Z_DEP_REPLY === undefined ? 'you typed plk , he is my creator' : process.env.Z_DEP_REPLY,
- PHONE: process.env.NUMBER === undefined ? '+5510310485' : process.env.NUMBER,   
+ PHONE: process.env.NUMBER === undefined ? '+905510310485' : process.env.NUMBER,   
     
 
 };
