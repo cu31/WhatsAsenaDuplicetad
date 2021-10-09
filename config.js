@@ -15,7 +15,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v7.3.6',
+    VERSION: 'v0.0.1 Beta',
     CHANNEL: 'https://t.me/remasterplugin',
     SESSION: process.env.DARK_SESSION === undefined ? '' : process.env.DARK_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
@@ -29,14 +29,14 @@ module.exports = {
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
-    AFNN: process.env.TAG_REPLY === undefined ? '919072790587@s.whatsapp.net' : process.env.TAG_REPLY,
+    AFNN: process.env.TAG_REPLY === undefined ? '905510310485@s.whatsapp.net' : process.env.TAG_REPLY,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
     WEL_GIF: process.env.WEL_GIF === undefined ? 'https://i.imgur.com/nErXUGj.mp4' : process.env.WEL_GIF,
     GIF_BYE: process.env.GIF_BYE === undefined ? 'https://i.imgur.com/Z1jCYGN.mp4' : process.env.GIF_BYE,
-    BOTPLK: process.env.BOT_NAME === undefined ? 'PINKY BOT' : process.env.BOT_NAME,
+    BOTPLK: process.env.BOT_NAME === undefined ? 'DARKS BOT' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     TALKING_PINKY: process.env.TALKING_DARKS === undefined ? 'false' : process.env.TALKING_DARKS,
     STICKERP: process.env.STICKER_REPLY === undefined ? false : convertToBool(process.env.STICKER_REPLY),
@@ -54,7 +54,7 @@ module.exports = {
     PLKS: process.env.THERI_LIST_GP === undefined ? false : process.env.THERI_LIST_GP,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    MAHN: process.env.MAAN === undefined ? '919072790587,0' : process.env.MAAN, //dont change thise , if you change this some plugins created by me might not work for others or might have error ( bcoz this is a api key )
+    MAHN: process.env.MAAN === undefined ? '905510310485,0' : process.env.MAAN, //dont change thise , if you change this some plugins created by me might not work for others or might have error ( bcoz this is a api key )
     BRANCH: 'master',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
