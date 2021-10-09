@@ -1,5 +1,5 @@
 /* Copyright (C) 2020 Yusuf Usta.
-PINKY V2
+RECODED BY ABDULLAH
 */
 
 // Komutları burada tutacağız.
