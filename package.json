@@ -1,14 +1,14 @@
 {
   "name": "Pinky",
-  "version": "7.3.6",
-  "description": "Pinky is the Modified Version of WhatsAsena.",
-  "main": "./Pinky_V2/bot.js",
+  "version": "0.0.1 Beta",
+  "description": "Dark is the Modified Version of WhatsAsena.",
+  "main": "./WhatsAsenaDuplicetad/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afnanplk/Pinky_V.git"
+    "url": ""
   },
   "keywords": [
     "whatsapp",
@@ -21,9 +21,9 @@
   "developer": "@afnanplk",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com//afnanplk/Pinky_V/issues"
+    "url": ""
   },
-  "homepage": "https://github.com//afnanplk/Pinky_V#readme",
+  "homepage": "",
   "dependencies": {
     "@adiwajshing/baileys": "3.4.1",
     "@lh2020/speedtest-net": "^2.1.1",
