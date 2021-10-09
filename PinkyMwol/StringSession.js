@@ -1,7 +1,5 @@
 /* Copyright (C) 2020 Yusuf Usta.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-WhatsAsena - Yusuf Usta
+RECODED BY ABDULLAH
 */
 
 const fs = require('fs');
@@ -11,7 +9,7 @@ class StringSession {
     }
 
     deCrypt(string = undefined) {
-        if ('PINKY_SESSION' in process.env && string === undefined) {
+        if ('DARK_SESSION' in process.env && string === undefined) {
             string = process.env.STRING_SESSION;
         } else if (string !== undefined) {
             if (fs.existsSync(string)) {
@@ -26,7 +24,7 @@ class StringSession {
     }
 
     createStringSession(dict) {
-        return 'Pinky___' + Buffer.from(JSON.stringify(dict)).toString('base64');
+        return 'DARK___' + Buffer.from(JSON.stringify(dict)).toString('base64');
     }
 }
 
