@@ -8,7 +8,7 @@
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "PINKY_SESSION": {
+        "DARK_SESSION": {
             "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
         },
@@ -93,17 +93,17 @@
         "Z_BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply pinky to identify)",
             "required": false,
-            "value": "PINKY"
+            "value": "DARK"
         },
         "Z_DEP_NAME": {
             "description": "bot deployer name make it short  (for auto reply pinky to identify)",
             "required": false,
-            "value": "plk"
+            "value": "drk"
         },
         "Z_DEP_REPLY": {
             "description": "enter the reply message you want when deployer name is typed by users  (for auto reply pink to identify)",
             "required": false,
-            "value": "i know him he is my creator"
+            "value": "Onu Tanımıyorum O benim Yaratıcım."
         },
         "ALL_LINK_BAN": {
             "description": "Link Blocking System.- this one blocks all link",
@@ -135,7 +135,7 @@
             "required": false,
             "value": "•━━━╼⤏DARK BOT⤎╾━━━•"
         },      
-        "TALKING_PINKY": {
+        "TALKING_DARKS": {
             "description": "Hesabınızı bir Chatbot'a Çevirin!",
             "required": true,
             "value": "false"
