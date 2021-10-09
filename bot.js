@@ -133,8 +133,8 @@ ${chalk.blue.italic('ℹ️ WhatsApp"a Bağlanılıyor... Lütfen Bekleyiniz.')}
 
         console.log(
             chalk.green.bold('' + config.WORKTYPE + ''));
+            await conn.sendMessage(conn.user.jid, "*WhatsAsena" + config.WORKTYPE + "```" , MessageType.text + '*Olarak Çalışıyor!*','/n','_Lütfen burada plugin denemesi yapmayın_','/n','Burası Sizin Log Numaranızdır.','/n','Herhangi Bir Sohbette Komutları Deneyebilirsiniz :)','/n','/n','Botunuz Sadece Sizi Özel Olarak Çalışmaktadır Değiştirmek İçin* .setvar WPRK_TYPE:public *Komutunu Kullanın*','/n','/n','*WhatsAsena Kullandığın İçin Teşekkürler*'
             await conn.sendMessage(conn.user.jid, "Dark ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
-            await conn.sendMessage(conn.user.jid, "``` WORKING " + config.WORKTYPE + "```" , MessageType.text);
     });
     
     conn.on('chat-update', async m => {
