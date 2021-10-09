@@ -94,7 +94,7 @@ MyPnky.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteComma
     }
 }));
 MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-        if (conf.TALKING_PINKY == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
+        if (conf.TALKING_DARKS == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
             (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
             if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
                 message.mention.map(async (jid) => {
@@ -237,7 +237,7 @@ var already_off = ''
 var succ_on = ''
 var succ_off = ''
 if (conf.LANG == 'TR') {
-    fulleva_dsc = 'Tam fonksiyonel pinky özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
+    fulleva_dsc = 'Tam fonksiyonel dark özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
     already_on = 'dark yapay zekası halihazırda tüm fonksiyonları etkin.'
     already_off = 'dark yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
     succ_on = 'dark, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'
