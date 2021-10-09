@@ -134,29 +134,7 @@ ${chalk.blue.italic('ℹ️ WhatsApp"a Bağlanılıyor... Lütfen Bekleyiniz.')}
         console.log(
             chalk.green.bold('' + config.WORKTYPE + ''));
             await conn.sendMessage(conn.user.jid, '*WhatsAsena Public Olarak Çalışıyor! 🐺*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz herkese açık bir şekilde çalışmaktadır. Değiştirmek için config vars üzerinden “WORK_TYPE” anahtarını “private” yapın.*\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
-            await git.fetch();
-            var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
-            if (commits.total === 0) {
-                await conn.sendMessage(
-                    conn.user.jid,
-                    Lang.UPDATE, MessageType.text
-                );    
-            } else {
-                var degisiklikler = Lang.NEW_UPDATE;
-                commits['all'].map(
-                    (commit) => {
-                        degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
-                    }
-                );
-        
-                await conn.sendMessage(
-                    conn.user.jid,
-                    '```Güncellemek İçin``` *.update now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
-                ); 
-            }
-        }
-    }
-
+            await conn.sendMessage(conn.user.jid, "*Botunuz tamamen güncel!*", MessageType.text);
     });
     
     conn.on('chat-update', async m => {
