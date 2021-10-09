@@ -1,9 +1,9 @@
 {
-    "name": "PINKY-V2 BY AFNAN PLK",
-    "description": "pinky bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
-    "logo": "https://avatars.githubusercontent.com/u/83832372?v=4",
+    "name": "DARKS V1 CODED BY:ABDULLAH",
+    "description": "Darks bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
+    "logo": "https://github.com/cu31/media-gif/blob/main/29c97db6b7086963c65508b8be80cbe5.png",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/afnanplk/Pinky_V2",
+    "repository": "https://github.com/cu31/WhatsAsenaDuplicetad",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
@@ -37,12 +37,12 @@
             "value": "true"
         },   
         "ANTİ_LİNK": {
-            "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "description": "Link Engelleme Sistemi.",
             "required": true,
             "value": "false"
         },
         "PM_BLOCK": {
-            "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "description": "Link Engelleme Sistemi..",
             "required": true,
             "value": "false"
         },
@@ -133,44 +133,44 @@
          "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "•━━━╼⤏PINKY BOT⤎╾━━━•"
+            "value": "•━━━╼⤏DARK BOT⤎╾━━━•"
         },      
         "TALKING_PINKY": {
-            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+            "description": "Hesabınızı bir Chatbot'a Çevirin!",
             "required": true,
             "value": "false"
         },
         "HEROKU_API_KEY": {
-            "description": "Herokuda API Keyiniz. Heroku API Key.",
+            "description": "Heroku API Keyiniz.",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "Düzenlenebilir Mute Mesajı. Customizable Mute Message! Use => default, to change back.",
+            "description": "Düzenlenebilir Mute Mesajı.",
             "required": false,
             "value": "default"
         },
         "BLOCK_CHAT": {
-            "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
+            "description": "Kişilerin Özel Chat Te Botu Kullanmasını Engeller Örn:905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
             "required": false,
             "value": "false"
         },
         "UNMUTE_MESSAGE": {
-            "description": "Düzenlenebilir Unmute Mesajı. Customizable Unmute Message! Use => default, to change back.",
+            "description": "Düzenlenebilir Unmute Mesajı.",
             "required": false,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
-            "description": "Düzenlenebilir Block Mesajı. Customizable Block Message! Use => default, to change back.",
+            "description": "Düzenlenebilir Block Mesajı.",
             "required": false,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
-            "description": "Düzenlenebilir Unblock Mesajı. Customizable Unblock Message! Use => default, to change back.",
+            "description": "Düzenlenebilir Unblock Mesajı.",
             "required": false,
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "pinky  Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. and if you use “admin”, only admin can use bot and not all feature (only features needed to maintain a standerd group)",
+            "description": "Dark'S  Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. and if you use “admin”, only admin can use bot and not all feature (only features needed to maintain a standerd group)",
             "required": true,
             "value": "private"
         },
@@ -190,25 +190,25 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "i am alive  \n\n ```coded by afnan pallikkel```"
+            "value": "Ben Çalışıyorum Dostum :D  \n\n ```coded by abdullah```"
         },
         "BAN_MESSAGE": {
-            "description": "Customizable kick Message! Use => default, to change back.",
+            "description": "Düzenlenebilir Kick Mesajı",
             "required": false,
             "value": "good bye"
         },
         "ADD_MESSAGE": {
-            "description": "Customizable Add Message! Use => default, to change back.",
+            "description": "Düzenlenebilir .add Mesajıdır.",
             "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "Customizable leave Message! Use => default, to change back.",
+            "description": "Düzenlenebilir Goodbye Mesajıdır.",
             "required": false,
             "value": "\n ```its time to leave bye bye``` \n"
         },
         "PROMOTE_MESSAGE": {
-            "description": "Customizable Promote Message! Use => default, to change back.",
+            "description": "Düzenlenebilir Promote Mesajıdır",
             "required": false,
             "value": "default"
         },
@@ -218,17 +218,17 @@
             "value": "one"
         },
         "DEMOTE_MESSAGE": {
-            "description": "Customizable Demote Message! Use => default, to change back.",
+            "description": "Düzenlenebilir Demote Mesajıdır.",
             "required": false,
             "value": "default"
         },
         "AFK_MESSAGE": {
-            "description": "Customizable AFK Message! Use => default, to change back.",
+            "description": "Düzenlenebilir AFK Mesajıdır",
             "required": false,
             "value": "default"
         },
         "TAG_REPLY": {
-            "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
+            "description": "Metioned örnek olduğunda sesli yanıt alabilmek için numaranızın jidini girin- 91xxxxxxxxxx@s.whatsapp.net - for india",
             "required": false          
         },
         "NO_ONLINE": {
