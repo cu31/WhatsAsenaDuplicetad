@@ -205,7 +205,7 @@
         "KICKME_MESSAGE": {
             "description": "Düzenlenebilir Goodbye Mesajıdır.",
             "required": false,
-            "value": "\n ```its time to leave bye bye``` \n"
+            "value": "\n ```Güle Güle Ben Gidiyorum``` \n"
         },
         "PROMOTE_MESSAGE": {
             "description": "Düzenlenebilir Promote Mesajıdır",
